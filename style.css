@@ -1,0 +1,944 @@
+
+#pic{
+      	 	background-image:url("bg2.jpg");
+		background-size:100% 100%;
+	height:800px;
+	width:99%;
+	padding:1px solid black;
+	position:absolute;
+	top:10%;	
+	animation:n 10s infinite;
+	animation-delay:3s;
+
+
+}
+
+@keyframes n{
+	0%{        background-image:url("bg2.jpg");
+       		      
+		}
+	50%{
+		    background-image:url("bg1.jpg");
+       		      
+		}
+}
+
+#nav{
+	height:80px;
+	width:100%;
+	padding:1px solid lavender;
+	position:fixed;
+	top:0%;
+	z-index:2;
+		animation-name:m;
+		animation-duration:30s;
+		background-color:rebeccapurple;
+		animation-iteration-count:infinite;
+		animation-delay:3s ;
+	}
+
+
+	@keyframes m{
+		10%{background-color:hotpink;}
+		20%{background-color:aqua;}
+		30%{background-color:lightblue;}
+		40%{background-color:grey;}
+		50%{background-color:gold;}
+		60%{background-color:royalblue;}
+		70%{background-color:rebeccapurple;}
+		80%{background-color:yellow;}
+		90%{background-color:green;}
+		100%{background-color:antiquewhite;}	
+	}
+
+#logo{
+	height:50px;
+	width:14%;
+	padding:1px solid black;
+	margin-left:5%;
+	margin-top:15px;
+	color:black;
+	}
+
+
+#home{
+	height:50px;
+	width:70px;
+	padding:1px solid black;
+	color:black;
+	position:absolute;
+	left:55%;
+	top:2%;
+	}
+
+
+#rooms{
+	height:50px;
+	width:90px;
+	padding:1px solid black;
+	color:black;
+	position:absolute;
+	left:61%;
+	top:2%;
+	}
+
+
+#rasturent{
+	height:50px;
+	width:90px;
+	padding:1px solid black;
+	color:black;
+	position:absolute;
+	left:67%;
+	top:2%;
+	}
+
+
+#about{
+	height:50px;
+	width:70px;
+	padding:1px solid black;
+	color:black;
+	position:absolute;
+	left:75.5%;
+	top:2%;
+	}
+
+
+#blog{
+	height:50px;
+	width:70px;
+	padding:1px solid black;
+	color:black;
+	position:absolute;
+	left:81%;
+	top:2%;
+	}
+
+
+#contact{
+	height:50px;
+	width:70px;
+	padding:1px solid black;
+	color:black;
+	position:absolute;
+	left:86%;
+	top:2%;
+	}
+
+
+#experience{
+	height:300px;
+	width:60%;
+	padding:1px solid black;
+	color:white;
+	position:absolute;
+	left:10%;
+	top:10%;
+	}
+
+
+#opsty{
+	height:170px;
+	width:93%;
+	padding:1px solid black;
+	color:white;
+	position:absolute;
+	top:70%;
+	}
+
+
+#opacity{
+        	background:#917605;
+	        background-size:100% 150%;
+	height:170px;
+	width:100%;
+	opacity:0.7;
+	}
+
+
+#indate{
+	height:120px;
+	width:17%;
+	padding:1px solid black;
+	color:black;
+	background-color:white;
+	position:absolute;
+	left:6%;
+	top:13%;
+	text-align:center;
+	}
+
+
+#indate:hover, #outdate:hover, #roomdate:hover, #guestdate:hover, #availdate:hover{
+	background-color:yellow;
+	color:red;
+	transform:scale(1.1);
+	z-index:1;
+	}
+
+
+#outdate{
+	height:120px;
+	width:18%;
+	padding:1px solid black;
+	color:black;
+	background-color:white;
+	position:absolute;
+	left:24%;
+	top:13%;
+	text-align:center;
+	}
+
+
+#roomdate{
+	height:120px;
+	width:18%;
+	padding:1px solid black;
+	color:black;
+	background-color:white;
+	position:absolute;
+	left:43%;
+	top:13%;
+	text-align:center;
+	}
+
+
+#guestdate{
+	height:120px;
+	width:18%;
+	padding:1px solid black;
+	color:black;
+	background-color:white;
+	position:absolute;
+	left:62%;
+	top:13%;
+	text-align:center;
+	}
+
+
+#availdate{
+	height:164px;
+	width:18%;
+	padding:1px solid black;
+	color:black;
+	background-color:#000000;
+	position:absolute;
+	left:82%;
+	top:1.5%;
+	text-align:center;
+	color:white;
+	}
+
+
+#picbox{
+	height:250px;
+	width:99%;
+	padding:1px solid black;
+	color:black;
+	position:absolute;
+	top:131.5%;
+	text-align:center;
+	color:white;
+	}
+
+
+#img1{
+		background-image:url("room-3.jpg");
+		background-size:100% 100%;
+	height:250px;
+	width:21%;
+	padding:1px solid black;
+	color:black;
+	position:absolute;
+	left:8%;
+	text-align:center;
+	color:white;
+	}
+
+
+#img1:hover, #img2:hover, #img3:hover, #img4:hover{
+	transform:scale(1.1);
+	z-index:1;
+	}
+
+
+#img2{
+		background-image:url("bg2.jpg");
+		background-size:100% 100%;
+	height:250px;
+	width:21%;
+	padding:1px solid red;
+	color:black;
+	position:absolute;
+	left:29%;
+	text-align:center;
+	color:white;
+	}
+
+
+#img3{
+		background-image:url("resto.jpg");
+		background-size:100% 100%;
+	height:250px;
+	width:21%;
+	padding:1px solid black;
+	color:black;
+	position:absolute;
+	left:50%;
+	text-align:center;
+	color:white;
+	}
+
+
+#img4{
+		background-image:url("sleep.jpg");
+		background-size:100% 100%;
+	height:250px;
+	width:20%;
+	padding:1px solid black;
+	color:black;
+	position:absolute;
+	left:71%;
+	text-align:center;
+	color:white;
+	}
+
+
+#welcome{
+		background-image:url("capture1.png");
+		background-size:100% 100%;
+	height:300px;
+	width:99%;
+	padding:1px solid white;
+	color:black;
+	position:absolute;
+	top:180%;
+	text-align:center;
+	color:white;
+	}
+
+
+#master{
+	height:250px;
+	width:99%;
+	padding:1px solid white;
+	background-color:lavender;
+	color:black;
+	position:absolute;
+	top:240%;
+	text-align:center;
+	color:white;
+	}
+
+
+#picbox2{
+	height:1000px;
+	width:99%;
+	padding:1px solid black;
+	color:black;
+	position:absolute;
+	top:278%;
+	text-align:center;
+	color:white;
+	}
+
+
+#img5{
+		background-image:url("bg3.jpg");
+		background-size:100% 100%;
+	height:350px;
+	width:50%;
+	padding:1px solid black;
+	color:black;
+	position:absolute;
+	text-align:center;
+	color:white;
+	}
+
+
+#img6{
+		background-image:url("room-1.jpg");
+		background-size:100% 100%;
+	height:350px;
+	width:25%;
+	padding:1px solid black;
+	color:black;
+	position:absolute;
+	left:50%;
+	text-align:center;
+	color:white;
+	}
+
+
+#img7{
+		background-image:url("capture2.png");
+		background-size:100% 100%;
+	height:350px;
+	width:25%;
+	padding:1px solid black;
+	color:black;
+	position:absolute;
+	left:75%;
+	text-align:center;
+	color:white;
+	}
+
+
+#img8{
+		background-image:url("capture3.png");
+		background-size:100% 100%;
+	height:350px;
+	width:25%;
+	padding:1px solid black;
+	color:black;
+	position:absolute;
+	top:35%;
+	text-align:center;
+	color:white;
+	}
+
+
+#img9{
+		background-image:url("room-2.jpg");
+		background-size:100% 100%;
+	height:350px;
+	width:25%;
+	padding:1px solid black;
+	color:black;
+	position:absolute;
+	left:25%;
+	top:35%;
+	text-align:center;
+	color:white;
+	}
+
+
+#img10{
+		background-image:url("capture4.png");
+		background-size:100% 100%;
+	height:350px;
+	width:25%;
+	padding:1px solid black;
+	color:black;
+	position:absolute;
+	left:50%;
+	top:35%;
+	text-align:center;
+	color:white;
+	}
+
+
+#img11{
+		background-image:url("room-3.jpg");
+		background-size:100% 100%;
+	height:350px;
+	width:25%;
+	padding:1px solid black;
+	color:black;
+	position:absolute;
+	left:75%;
+	top:35%;
+	text-align:center;
+	color:white;
+	}
+
+
+#img12{
+		background-image:url("room-4.jpg");
+		background-size:100% 100%;
+	height:350px;
+	width:25%;
+	padding:1px solid black;
+	color:black;
+	position:absolute;
+	top:70%;
+	text-align:center;
+	color:white;
+	}
+
+
+#img13{
+		background-image:url("capture5.png");
+		background-size:100% 100%;
+	height:350px;
+	width:25%;
+	padding:1px solid black;
+	color:black;
+	position:absolute;
+	left:25%;
+	top:70%;
+	text-align:center;
+	color:white;
+	}
+
+
+#img14{
+		background-image:url("room-5.jpg");
+		background-size:100% 100%;
+	height:350px;
+	width:25%;
+	padding:1px solid black;
+	color:black;
+	position:absolute;
+	left:50%;
+	top:70%;
+	text-align:center;
+	color:white;
+	}
+
+
+#img15{
+		background-image:url("capture6.png");
+		background-size:100% 100%;
+	height:350px;
+	width:25%;
+	padding:1px solid black;
+	color:black;
+	position:absolute;
+	left:75%;
+	top:70%;
+	text-align:center;
+	color:white;
+	}
+
+
+#happyguest{
+	height:700px;
+	width:98%;
+	padding:1px solid black;
+	color:black;
+	position:absolute;
+	top:437.7%;
+	text-align:center;
+	background-color:#F8F9FA;
+	}
+
+
+#happy1{
+		background-image:url("capture7.png");
+		background-size:100% 100%;
+	height:200px;
+	width:10%;
+	border:1px solid #F8F9FA;
+	color:black;
+	position:absolute;
+	left:44%;
+	top:34%;
+	text-align:center;
+	background-color:#F8F9FA;
+	}
+
+
+#dishes{
+		background-image:url("ds1.jpg");
+		background-size:100% 100%;	
+	height:1000px;
+	width:98%;
+	border:1px solid whitek;
+	color:black;
+	position:absolute;
+	top:544.6%;
+	text-align:center;
+	}
+
+
+#dis1{
+	height:150px;
+	width:40%;
+	border:1px solid white;
+	color:black;
+	position:absolute;
+	left:8%;
+	top:25%;
+	text-align:center;
+	background-color:white;
+	}
+
+
+#d1{
+		background-image:url("menu-1.jpg");
+		background-size:100% 100%;
+	height:120px;
+	width:22%;
+	color:black;
+	position:absolute;
+	left:70%;
+	top:0%;
+	text-align:center;
+	border-radius:100px;
+	}
+
+
+#dis2{
+	height:150px;
+	width:40%;
+	border:1px solid white;
+	color:black;
+	position:absolute;
+	left:52%;
+	top:25%;
+	text-align:center;
+	background-color:white;
+	}
+
+
+#d2{
+		background-image:url("menu-5.jpg");
+		background-size:100% 100%;
+	height:120px;
+	width:22%;
+	border:1px solid white;
+	color:black;
+	position:absolute;
+	top:0%;
+	text-align:center;
+	border-radius:100px;
+	}
+
+
+#dis3{
+	height:150px;
+	width:40%;
+	border:1px solid white;
+	color:black;
+	position:absolute;
+	left:8%;
+	top:45%;
+	text-align:center;
+	background-color:white;
+	}
+
+
+#d3{
+		background-image:url("menu-2.jpg");
+		background-size:100% 100%;
+	height:120px;
+	width:22%;
+	color:black;
+	position:absolute;
+	left:70%;
+	top:0%;
+	text-align:center;
+	border-radius:100px;
+	}
+
+
+#dis4{
+	height:150px;
+	width:40%;
+	border:1px solid white;
+	color:black;
+	position:absolute;
+	left:52%;
+	top:45%;
+	text-align:center;
+	background-color:white;
+	}
+
+
+#d4{
+		background-image:url("menu-6.jpg");
+		background-size:100% 100%;
+	height:120px;
+	width:22%;
+	border:1px solid white;
+	color:black;
+	position:absolute;
+	top:0%;
+	text-align:center;
+	border-radius:100px;
+	}
+
+
+#dis5{
+	height:150px;
+	width:40%;
+	border:1px solid white;
+	color:black;
+	position:absolute;
+	left:8%;
+	top:65%;
+	text-align:center;
+	background-color:white;
+	}
+
+
+#d5{
+		background-image:url("menu-3.jpg");
+		background-size:100% 100%;
+	height:120px;
+	width:22%;
+	color:black;
+	position:absolute;
+	left:70%;
+	top:0%;
+	text-align:center;
+	border-radius:100px;
+	}
+
+
+#dis6{
+	height:150px;
+	width:40%;
+	border:1px solid white;
+	color:black;
+	position:absolute;
+	left:52%;
+	top:65%;
+	text-align:center;
+	background-color:white;
+	}
+
+
+#d6{
+		background-image:url("menu-7.jpg");
+		background-size:100% 100%;
+	height:120px;
+	width:22%;
+	border:1px solid white;
+	color:black;
+	position:absolute;
+	top:0%;
+	text-align:center;
+	border-radius:100px;
+	}
+
+
+#dis7{
+	height:150px;
+	width:40%;
+	border:1px solid white;
+	color:black;
+	position:absolute;
+	left:8%;
+	top:85%;
+	text-align:center;
+	background-color:white;
+	}
+
+
+#d7{
+		background-image:url("menu-4.jpg");
+		background-size:100% 100%;
+	height:120px;
+	width:22%;
+	color:black;
+	position:absolute;
+	left:70%;
+	top:0%;
+	text-align:center;
+	border-radius:100px;
+	}
+
+
+#dis8{
+	height:150px;
+	width:40%;
+	border:1px solid white;
+	color:black;
+	position:absolute;
+	left:52%;
+	top:85%;
+	text-align:center;
+	background-color:white;
+	}
+
+
+#d8{
+		background-image:url("menu-8.jpg");
+		background-size:100% 100%;
+	height:120px;
+	width:22%;
+	border:1px solid white;
+	color:black;
+	position:absolute;
+	top:0%;
+	text-align:center;
+	border-radius:100px;
+	}
+
+
+#read{
+	height:700px;
+	width:98%;
+	border:1px solid white;
+	color:black;
+	position:absolute;
+	top:700%;
+	text-align:center;
+	}
+
+
+#read1{
+		background-image:url("image_1.jpg");
+		background-size:100% 100%;
+	height:220px;
+	width:27%;
+	color:black;
+	position:absolute;
+	left:6%;
+	top:30%;
+	text-align:center;
+	}
+
+
+#read2{
+		background-image:url("image_2.jpg");
+		background-size:100% 100%;
+	height:220px;
+	width:27%;
+	color:black;
+	position:absolute;
+	left:36%;
+	top:30%;
+	text-align:center;
+	}
+
+
+#read3{
+		background-image:url("image_3.jpg");
+		background-size:100% 100%;
+	height:220px;
+	width:27%;
+	color:black;
+	position:absolute;
+	left:66%;
+	top:30%;
+	text-align:center;
+	}
+
+
+#unread1{
+	height:220px;
+	width:27%;
+	color:black;
+	position:absolute;
+	left:6%;
+	top:61.5%;
+	text-align:center;
+	}
+
+
+#unread2{
+	height:220px;
+	width:27%;
+	color:black;
+	position:absolute;
+	left:36%;
+	top:61.5%;
+	text-align:center;
+	}
+
+
+#unread3{
+	height:220px;
+	width:27%;
+	color:black;
+	position:absolute;
+	left:66%;
+	top:61.5%;
+	text-align:center;
+	}
+
+
+#insta{
+	height:500px;
+	width:98%;
+	padding:1px solid ;
+	color:black;
+	position:absolute;
+	top:810%;
+	text-align:center;
+	}
+
+
+#insta1{
+		background-image:url("insta-1.jpg");
+		background-size:100% 100%;
+	height:300px;
+	width:20%;
+	padding:1px solid black;
+	color:black;
+	position:absolute;
+	top:28%;
+	text-align:center;
+	}
+
+
+#insta2{
+		background-image:url("insta-2.jpg");
+		background-size:100% 100%;
+	height:300px;
+	width:20%;
+	padding:1px solid black;
+	color:black;
+	position:absolute;
+	left:20%;
+	top:28%;
+	text-align:center;
+	}
+
+
+#insta3{
+		background-image:url("insta-3.jpg");
+		background-size:100% 100%;
+	height:300px;
+	width:20%;
+	padding:1px solid black;
+	color:black;
+	position:absolute;
+	left:40%;
+	top:28%;
+	text-align:center;
+	}
+
+
+#insta4{
+		background-image:url("insta-4.jpg");
+		background-size:100% 100%;
+	height:300px;
+	width:20%;
+	padding:1px solid black;
+	color:black;
+	position:absolute;
+	left:60%;
+	top:28%;
+	text-align:center;
+	}
+
+
+#insta5{
+		background-image:url("insta-5.jpg");
+		background-size:100% 100%;
+	height:300px;
+	width:20%;
+	padding:1px solid black;
+	color:black;
+	position:absolute;
+	left:80%;
+	top:28%;
+	text-align:center;
+	}
+
+
+#footer{
+		background-image:url("capturef.png");
+		background-size:100% 100%;
+	height:500px;
+	width:98%;
+	padding:1px solid black;
+	color:black;
+	position:absolute;
+	top:877%;
+	text-align:center;
+	}
+
+
+	.rp:hover{
+		color:#BA9710;
+		cursor: pointer;
+	}
+
+
+	
